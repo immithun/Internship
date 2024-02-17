@@ -7,7 +7,7 @@ import mysql.connector
 import re
 import pandas as pd
 
-conn = mysql.connector.connect(host = "localhost", user = "root",passwd = "Immithun2605@", database = "detail")
+conn = mysql.connector.connect(host = "localhost", user = "root",passwd = "", database = "detail")
 curr = conn.cursor()
 curr.execute("drop table customers")
 #curr.execute("delete from customers")
